@@ -26,22 +26,24 @@
     </div>
   </nav>
 
+  <div style="position: fixed; top: 70px; left: 0; width: 100%; height: calc(100% - 65px); background-image: url('my assets/koba.jpg'); background-size: cover; background-position: center; opacity: 0.2; z-index: -1;"></div>
+
   <section style="margin-top: 80px; padding: 190px; max-width: 800px; margin: auto;">
-    <div style="background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    <div style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 20px;">
       <h1 style="text-align: center; color: #17252a;">Contact</h1>
       <form action="https://formsubmit.co/ea089cdfd9c147f40c62c2f84cc8b1b5" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
         <label for="name" style="font-weight: 600;">Name:</label>
-        <input type="text" id="name" name="name" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
-
+        <input type="text" id="name" name="name" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; background: rgba(255, 255, 255, 0.5);">
+  
         <label for="email" style="font-weight: 600;">Email:</label>
-        <input type="email" id="email" name="email" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
-
+        <input type="email" id="email" name="email" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; background: rgba(255, 255, 255, 0.5);">
+  
         <label for="message" style="font-weight: 600;">Message:</label>
-        <textarea id="message" name="message" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-
-        <button type="submit" style="padding: 10px; font-weight: 600; font-size: 1.2rem; color: white; background-color: #2b7a78; border: none; border-radius: 4px; cursor: pointer;">Send Message</button>
+        <textarea id="message" name="message" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; background: rgba(255, 255, 255, 0.5);"></textarea>
+  
+        <button type="submit" style="padding: 10px; font-weight: 600; font-size: 1.2rem; color: white; background-color: #2b7a78; border: none; border-radius: 20px; cursor: pointer;">Send Message</button>
       </form>
-
+  
       <div style="text-align: center; margin-top: 20px;">
         <a href="https://www.instagram.com/prollynotkoba" target="_blank" style="text-decoration: none; color: #2b7a78; margin: 0 10px;">
           <i class="ri-instagram-fill" style="font-size: 2rem;"></i>
@@ -51,6 +53,6 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> 
 </body>
 </html>
